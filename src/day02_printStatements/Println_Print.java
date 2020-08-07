@@ -1,4 +1,4 @@
-package day02;
+package day02_printStatements;
 
 public class Println_Print {
 
