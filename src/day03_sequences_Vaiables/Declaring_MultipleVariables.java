@@ -1,6 +1,4 @@
-package day03;
-
-import javax.xml.bind.SchemaOutputResolver;
+package day03_sequences_Vaiables;
 
 public class Declaring_MultipleVariables {
 

@@ -1,4 +1,4 @@
-package day03;
+package day03_sequences_Vaiables;
 /*
         System.out.println(" Hello Everyone \nMy name is Cybertek");
         System.out.println("\tI am in Virginia\n");

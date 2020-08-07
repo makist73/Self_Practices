@@ -1,4 +1,4 @@
-package day03;
+package day03_sequences_Vaiables;
 
 public class Creating_Variables {
     public static void main(String[] args) {
