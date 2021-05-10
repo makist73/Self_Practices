@@ -1,18 +1,35 @@
 package Interview_Practices.Cybertek.Strings;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class FindUniques {
 
     public static void main(String[] args) {
+// first way
+        String word = "AABBBDsddd";
+        String uniques="";
 
-        String word = "AABBBD";
+    for (int i=0; i<word.length(); i++){
+        String s=""+word.charAt(i);
+        if(!uniques.contains(s)){
+            uniques+=s;
+        }
+
+    }
+        System.out.println(uniques);
 
 
+        System.out.println("=============================");
+// Second way
+        for(int i=0; i<word.length(); i++){
+            String s=""+word.charAt(i);
 
+            if (uniques.contains(s)){
+                continue;
+            }
+            uniques+=s;
+        }
 
-
+        System.out.println(uniques);
 
 
     }
